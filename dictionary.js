@@ -20,7 +20,6 @@ let lessWords = stringToArray.filter(x =>
 	!unnecessaryWords.includes(x));
 //console.log(lessWords.join(' '));
 
-
 /*There is an array of words called overusedWords. These are words overused in this story.
 You want to let the user of your program know how many times they have used these overused words. 
 There are two ways to achieve this. Try it on your own first. If you need help, consult the hint.*/
@@ -49,8 +48,8 @@ for ( let x of stringToArray){
 };
 
 function logOn() {
-  console.log(`You have used '${overusedWords[0]}' ${toMuchReally.length} times!`);
-	console.log(`You have used' ${overusedWords[1]}' ${toMuchVery.length} times!`); 
+    console.log(`You have used '${overusedWords[0]}' ${toMuchReally.length} times!`);
+    console.log(`You have used' ${overusedWords[1]}' ${toMuchVery.length} times!`); 
 	console.log(`You have used '${overusedWords[2]}' ${toMuchBasically.length} times!`);
 }
 logOn()
